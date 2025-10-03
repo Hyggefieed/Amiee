@@ -1,50 +1,59 @@
-# Welcome to your Expo app 👋
+# 🌱 Therapeutic Healing App  
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A mental wellness platform designed to help individuals heal from trauma, anxiety, and depression through AI-powered conversations, wellness check-ins, silent healing modes, and safety-first features.  
 
-## Get started
+---
 
-1. Install dependencies
+## ✨ Features  
+- **Humanized AI Conversations** – Context-aware responses based on user behavior and trauma severity.  
+- **Wellness Check-ins** – Reminders for therapy, yoga, exercise, meditation, and medications.  
+- **Silent Healing Mode** – Tap & gesture-based interactions for those unable to express in words.  
+- **Safety-first System** – Live location awareness with safe/unsafe area alerts.  
+- **Emergency SOS** – Instant alerts for emergency contacts.  
 
-   ```bash
-   npm install
-   ```
+---
 
-2. Start the app
+## 🛠️ Tech Stack  
 
-   ```bash
-   npx expo start
-   ```
+### Frontend  
+- **React Native (Expo Router)** – Cross-platform mobile application.  
+- **Tailwind / NativeBase** – UI components & styling.  
 
-In the output, you'll find options to open the app in a
+### Backend  
+- **Node.js + Express** – REST APIs, authentication, WebSockets.  
+- **Python (FastAPI/Flask)** – AI/NLP services integration.  
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+### Database  
+- **MongoDB** – User data & trauma logs.  
+- **PostgreSQL** – Structured metadata & analytics.  
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+### AI & Safety  
+- **OpenAI / HuggingFace Models** – NLP, sentiment analysis, humanized responses.  
+- **Google Maps API** – Live location tracking & safe-zone detection.  
 
-## Get a fresh project
+### Security  
+- **JWT Authentication** – Secure user sessions.  
+- **HIPAA/GDPR Ready** – Data encryption & compliance focus.  
 
-When you're ready, run:
+---
+
+## 🚀 Getting Started  
+
+### Prerequisites  
+- Node.js v18+  
+- Expo CLI  
+- MongoDB + PostgreSQL running locally or via cloud  
+- API keys: OpenAI, HuggingFace, Google Maps  
+
+### Installation  
 
 ```bash
-npm run reset-project
-```
+# Clone repository
+git clone https://github.com/your-username/therapeutic-healing-app.git
+cd therapeutic-healing-app
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+# Install dependencies
+npm install
 
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+# Start Expo development server
+npx expo start
