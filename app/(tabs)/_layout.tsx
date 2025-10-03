@@ -34,7 +34,14 @@ export default function TabLayout() {
         name="amiee"
         options={{
           title: 'Amiee',
-          tabBarIcon: ({ color }) => <IconSymbol size={28} name="paperplane.fill" color={color} />,
+          tabBarIcon: ({ color }) => <IconSymbol size={28} name="person.fill" color={color} />,
+        }}
+      />
+      <Tabs.Screen
+        name="chat"
+        options={{
+          title: 'Talk',
+          tabBarIcon: ({ color }) => <IconSymbol size={28} name="message" color={color} />,
         }}
       />
     </Tabs>
