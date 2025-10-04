@@ -14,30 +14,30 @@
 
 ## ✨ Project Overview
 
-**Therapeutic Healing App** is an innovative mental wellness platform designed to provide compassionate, real-time support to individuals struggling with trauma, anxiety, and depression. Leveraging the power of AI, the app functions as a personal, non-judgmental companion, offering tailored guidance and interventions based on the user’s emotional state.  
+**Therapeutic Healing App** is a cutting-edge mental wellness platform designed to provide compassionate, real-time support for individuals dealing with trauma, anxiety, and depression. By leveraging AI-driven insights, the app acts as a personal, non-judgmental companion, delivering guidance and interventions tailored to each user’s emotional state.  
 
-Key elements include:  
-- **Humanized AI Conversations** – Empathetic, context-aware dialogues that adapt to user behavior and trauma history, making interactions feel genuinely supportive.  
-- **Wellness Check-ins** – Regular reminders for therapy, meditation, yoga, exercise, and medication adherence, promoting holistic mental wellness.  
-- **Silent Healing Mode** – Gesture- and tap-based interactions for users who struggle to verbalize their feelings, ensuring accessibility for all.  
-- **Safety-first System** – Real-time location tracking with alerts for safe and unsafe areas, enhancing personal security and peace of mind.  
-- **Emergency SOS Alerts** – Instant notifications to trusted contacts in moments of crisis.  
+**Core Highlights:**  
+- **Humanized AI Conversations** – Empathetic, context-aware dialogues that respond dynamically to user behavior and trauma history.  
+- **Wellness Check-ins** – Regular nudges for therapy, meditation, yoga, exercise, and medication adherence to encourage holistic mental well-being.  
+- **Silent Healing Mode** – Gesture- and tap-based interactions for users who struggle to express themselves verbally, ensuring accessibility and comfort.  
+- **Safety-first System** – Real-time location tracking with alerts for safe and unsafe zones, prioritizing personal security.  
+- **Emergency SOS Alerts** – Immediate notifications to trusted contacts during crisis moments.  
 
-The app integrates cutting-edge **AI/NLP models (OpenAI, HuggingFace)** to analyze user sentiment and provide contextually relevant, empathetic responses. With **real-time WebSocket communication**, users can experience immediate support and continuous engagement, while backend services in **Node.js/Express and Python** handle robust, scalable API endpoints.  
+The app integrates advanced **AI/NLP models (OpenAI, HuggingFace)** for sentiment analysis and humanized responses. **WebSocket-powered real-time communication** ensures instant support, while the backend built with **Node.js/Express and Python** provides a scalable, secure foundation for API services.  
 
-At its core, the platform embodies the principle:  
-*"A Friend in Need is a Friend Indeed"* – ensuring that every user feels heard, understood, and supported throughout their mental wellness journey.
+At its heart, the platform embodies the philosophy:  
+*"A Friend in Need is a Friend Indeed"* – ensuring every user feels supported, understood, and safe throughout their mental wellness journey.
 
 ---
 
 ## 🛠️ Tech Stack  
 
 ### Frontend
-- **React Native (Expo Router)** – Cross-platform mobile experience  
-- **Tailwind / NativeBase** – Elegant UI components & responsive styling  
+- **React Native (Expo Router)** – Cross-platform mobile application  
+- **Tailwind / NativeBase** – Elegant UI components and responsive styling  
 
 ### Backend
-- **Node.js + Express** – REST APIs, authentication, WebSockets  
+- **Node.js + Express** – RESTful APIs, authentication, and WebSocket support  
 - **Python (FastAPI/Flask)** – AI/NLP services integration for humanized interactions  
 
 ### Database
@@ -45,7 +45,7 @@ At its core, the platform embodies the principle:
 - **PostgreSQL** – Structured metadata, analytics, and reporting  
 
 ### AI & Safety
-- **OpenAI / HuggingFace Models** – Sentiment analysis, context-aware, and empathetic responses  
+- **OpenAI / HuggingFace Models** – Sentiment analysis, adaptive responses, and empathetic conversations  
 - **Google Maps API** – Real-time location tracking & safe-zone alerts  
 
 ### Security
@@ -55,26 +55,26 @@ At its core, the platform embodies the principle:
 ---
 
 ## ✨ Key Features
-- **Humanized AI Conversations** – Adaptive responses tailored to individual trauma levels  
-- **Wellness Check-ins** – Gentle reminders for therapy, yoga, exercise, meditation, and medications  
-- **Silent Healing Mode** – Tap & gesture-based interactions for users unable to express themselves verbally  
-- **Safety-first System** – Real-time location alerts for safe and unsafe areas  
-- **Emergency SOS** – Instant alerts to trusted contacts in crisis situations  
+- **Humanized AI Conversations** – Adaptive responses based on trauma severity and emotional state  
+- **Wellness Check-ins** – Scheduled reminders for therapy, meditation, yoga, exercise, and medications  
+- **Silent Healing Mode** – Gesture- and tap-based interactions for non-verbal communication  
+- **Safety-first System** – Real-time alerts for safe and unsafe areas  
+- **Emergency SOS** – Instant notifications to trusted contacts  
 
 ---
 
-## 🚀 How to Run the Project  
+## 🚀 Getting Started  
 
 ### Prerequisites
 - Node.js v18+  
 - Expo CLI  
-- MongoDB + PostgreSQL running locally or via cloud  
-- API keys: OpenAI, HuggingFace, Google Maps  
+- MongoDB and PostgreSQL running locally or via cloud  
+- API keys for OpenAI, HuggingFace, and Google Maps  
 
 ### Installation
 
 ```bash
-# Clone repository
+# Clone the repository
 git clone https://github.com/your-username/therapeutic-healing-app.git
 cd therapeutic-healing-app
 
